@@ -14,3 +14,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+#infoBox {
+  position: absolute;
+  top: 100px;
+  z-index: 10000;
+  background: white;
+  left: 20px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  text-align: center;
+}
+
+#infoTitle {
+  font-size: 15px;
+  font-weight: bolder;
+}
