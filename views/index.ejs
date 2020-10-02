@@ -136,6 +136,14 @@
           alert("위치정보 사용 불가능");
         }
       });
+
+      let ps = new kakao.maps.services.Places();
+
+      $("#search_input").on("keydown", function (e) {
+        if (e.keyCode == 13) {
+          let content = $(this).val();
+        }
+      });
     </script>
   </body>
 </html>
